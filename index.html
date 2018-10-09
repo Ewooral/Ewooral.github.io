@@ -71,25 +71,9 @@
 
 	</head>
 	<style>
-		.logincard{
-			background: rgba(0, 0, 0, 0.438);
-			padding: 10px;
-			margin: 10px;
-			color: white;
-			height: 100px;
-			width: 400px ;
-			border-top-right-radius:40px;
-			border-bottom-left-radius: 40px;
-			text-align: center;
-			border-block-end-style:hidden;
-
-
+		
 			
-			
-
-		}
-
-	</style>
+    </style>
 	<body>
 		
 
@@ -102,8 +86,6 @@
 			
 			<div class="top-menu">
 				<div class="row">
-					<div class="col-md-4">
-					<div class="logincard">You are for me<br> not against me.<br> I am chosen not forsaken. <br>I am who you say</div></div>
 					<div class="col-md-12 col-offset-0 text-center">
 						<div id="fh5co-logo"><a href="index.html" style="font-family:'Gabriela', serif,'Rock Salt', cursive; ">CHURCH OF PENTECOST</a></div>
 						<div><img src="images/pentecost logo.gif" style="width: 140px; height: 140px;"></div>
@@ -146,7 +128,8 @@
 					   				<div class="slider-text-inner">
 					   					<h1>Two Streams District. Koforidua</h1>
 											<h2>Free templates Made by <a href="http://ewooral.inc/" target="_blank">ewooral, Inc.</a></h2>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> Login</a> <a class="btn btn-primary btn-learn">Sign Up <i class="icon-arrow-right3"></i></a></p>
+											
+											<p><a class="btn btn-primary "data-toggle="modal" data-target="#myModal" > <i class="icon-play4"></i> Login</a> <a class="btn btn-primary btn-learn">Sign Up <i class="icon-arrow-right3"></i></a></p>
 					   				</div>
 				   				</div>
 				   			</div>
@@ -161,7 +144,7 @@
 					   				<div class="slider-text-inner">
 					   					<h1>Two Streams District. Koforidua</h1>
 											<h2>Free templates Made by <a href="http://freehtml5.co/" target="_blank">ewooral, Inc.</a></h2>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> Login</a> <a class="btn btn-primary btn-learn">Sign Up <i class="icon-arrow-right3"></i></a></p>	</div>
+											<p><a class="btn btn-primary "data-toggle="modal" data-target="#myModal"  ></i> Login</a> <a class="btn btn-primary btn-learn">Sign Up <i class="icon-arrow-right3"></i></a></p>	</div>
 					   			</div>
 				   			</div>
 				   		</div>
@@ -177,7 +160,7 @@
 					   				<div class="slider-text-inner text-center">
 					   					<h1>Two Streams District. Koforidua</h1>
 											<h2>Free templates Made by <a href="http://freehtml5.co/" target="_blank">ewooral, Inc.</a></h2>
-											<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"> <i class="icon-play4"></i> Login</a> <a class="btn btn-primary btn-learn">Sign Up <i class="icon-arrow-right3"></i></a></p></div>
+											<p><a class="btn btn-primary"data-toggle="modal" data-target="#myModal"  >  Login</a> <a class="btn btn-primary">Sign Up <i class="icon-arrow-right3"></i></a></p></div>
 					   			</div>
 				   			</div>
 				   		</div>
@@ -460,6 +443,36 @@
 				</div>
 			</div>
 		</footer>
+		<!-- Sart Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            <i class="now-ui-icons ui-1_simple-remove"></i>
+                        </button>
+                        <h4 class="title title-up" style="margin-left: 70px; color:#b8ac06; font-family: 'Courier New', Courier, monospace; font-weight: bolder; font-size: 20px; ">TWO STREAMS DISTRICT/ KOFORIDUA.</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Professor Elijah Owusu Dawson Boahen, Founder of Ewooral, Inc., in 2013 coined the phrase, Strengths of Thousands can defeat the famous canker called impossibility
+						<div style="text-align: center;"> <br>
+							 <div style=" color:#978d04 ">  Username: <input type="text" required></div><br><br>
+							  <div style="color:#948a02 "> Password: <input type="password" min="5" required></div><br><br>
+							  
+							             <button class="btn btn-primary" style="margin-left: 70px;">Login</button>
+										 <button class="btn btn-danger"style="margin-left: 0px;" >Cancel</button>
+
+							</div>
+						   
+						</p>
+                    </div>
+                    <!--div class="modal-footer">
+                        <button type="button" class="btn btn-default"></button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div-->
+                </div>
+            </div>
+        </div>
 	</div><!-- END container-wrap -->
 	</div>
 
