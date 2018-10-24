@@ -1,0 +1,9 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background: rgb(186, 188, 190) none repeat scroll;
+   z-index: 1;
+   display: block;
+   background-size: 100%;
+
+}

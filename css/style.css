@@ -1367,11 +1367,14 @@ textarea {
 }
 .modal-content {
   border-radius: 0.1875rem;
-  border: none;
+  border: solid 1px rgb(255, 255, 255);
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.5);
 border-bottom-left-radius: 50px;
 border-top-right-radius: 50px;
-background-color: rgba(0, 0, 0, 0.966);
+background-color: rgba(11, 0, 17, 0.966);
+
+
+
 }
 
 .modal-content .modal-header {
