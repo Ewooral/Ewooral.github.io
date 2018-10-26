@@ -1,10 +1,9 @@
-
 <!DOCTYPE HTML>
 <html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Church &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>ChurchEwooral &mdash;Two streams District by ewooral, Inc.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -14,12 +13,12 @@
 	//////////////////////////////////////////////////////
 
 	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
+	DESIGNED & DEVELOPED by ewooral, Inc.
 		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+	Website: 		http://ewooral.github.io/
+	Email: 			ewooral.inc@gmail.com
+	Twitter: 		http://twitter.com/
+	Facebook: 		https://www.facebook.com/
 
 	//////////////////////////////////////////////////////
 	 -->
@@ -72,15 +71,46 @@
 
 	</head>
 	<style>
-		
-			
     </style>
 	<body>
+		
 
-	     <div class="fh5co-loader"></div>
+		
+	<div class="fh5co-loader"></div>
+
+	<div class="overlay"></div>
+			   		<div class="container-fluids">
+			   			<div class="row">
+				   			<div class="col-md-6 col-md-offset-3 text-center">
+								   <h1 style="margin-bottom:10px; font-size:30px;">WELCOME TO TWO STREAMS DISTRICT-KOFORIDUA</h1>
+				   				<br>
+					   				<div class="slider-text-inner text-center">
+										<div class="cardi">
+					   					<h1 class="co">Please Login</h1>
+											
+											<form>
+												<div style="color:black;">
+													<img src="user.png" style="margin-right:10px;margin-bottom:8px;"><input type="text" name="User-Name" placeholder="Enter Username" required><br><br>
+													<img src="padlock (2).png"style="margin-right:10px; margin-bottom:8px;"> <input type="password" name="Password"  placeholder="Enter password" required><br><br>
+												</div>
+											<p><a class="btn btn-primary"data-toggle="modal" data-target="#myModal" style="margin-left: 20px;"  >  Login</a> <a class="btn btn-primary">Sign Up <i class="icon-arrow-right3"></i></a></p></div>
+</form>
+
+                                       </div>
+										
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			  	</ul>
+		  	</div>    
+</div>
+		
+		
 	
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
+	
+	
+	<!--nav class="fh5co-nav" role="navigation">
 		<div class="container-wrap">
 			
 			<div class="top-menu">
@@ -90,7 +120,7 @@
 						<div><img src="images/pentecost logo.gif" style="width: 140px; height: 140px;"></div>
 						
 					</div>
-					<!--div class="col-md-12 col-md-offset-0 text-center menu-1">
+					<div class="col-md-12 col-md-offset-0 text-center menu-1">
 						<ul>
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="sermons.html">Sermons</a></li>
@@ -108,7 +138,7 @@
 							<li><a href="contact.html">Contact</a></li>
 							<li><a href="#" class="donate">Donate</a></li>
 						</ul>
-					</div-->
+					</div->
 				</div>
 				
 			</div>
@@ -173,6 +203,9 @@
 				<div class="col-md-12 col-md-offset-0 text-center">
 					<h2>2018 Theme</h2>
 					<span>Remaining in Christ and his basic messages</span>
+					<form>
+						<a href="mainpage.html"><button class="btn btn-primary" style="margin-left: 70px;" >Login</button></a>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -414,7 +447,7 @@
 				</div>
 			</div>
 		</div>
-	</div><!-- END container-wrap ---->
+	</div><!-- END container-wrap ->
 
 	<div class="container-wrap">
 		<footer id="fh5co-footer" role="contentinfo">
@@ -442,7 +475,7 @@
 				</div>
 			</div>
 		</footer>
-		<!-- Sart Modal -->
+		<!- Sart Modal ->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -454,28 +487,27 @@
                     </div>
                     <div class="modal-body">
                         <p>Professor Elijah Owusu Dawson Boahen, Founder of Ewooral, Inc., in 2013 coined the phrase, Strengths of Thousands can defeat the famous canker called impossibility								
-						</p>
-						
-							<form action="Emma.php" method="POST">
+							
 						<div style="text-align: center;"> 							
 							 <div style=" color:#978d04 ">  Username: <input type="text" required placeholder="Enter Username"></div><br>
 							  <div style="color:#948a02 "> Password: <input type="password" min="5" required placeholder="Enter password"></div><br>
 						
-							            <a href="mainpage.html"><button class="btn btn-primary" style="margin-left: 70px;" >Login</button></a>
+							  <a href="mainpage.php"><button class="btn btn-primary" style="margin-left: 70px;" >Login</button></a>
 										 <button class="btn btn-danger"  data-dismiss="modal"style="margin-left: 0px;" >Cancel</button>
 
 							</div>
-							</form>
 							
+						   
+						</p>
                     </div>
-                    <!--div class="modal-footer">
+                    <!div class="modal-footer">
                         <button type="button" class="btn btn-default"></button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
-                    </div-->
+                    </div->
                 </div>
             </div>
         </div>
-	</div><!-- END container-wrap -->
+	</div><! END container-wrap >
 	</div>
 
 	<div class="gototop js-top">
@@ -503,7 +535,5 @@
 	<script src="js/main.js"></script>
 
 	</body>
-	
-    
 </html>
 

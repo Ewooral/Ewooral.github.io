@@ -16,9 +16,28 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: gray;
-  background: url(../images/ku.png) repeat fixed;
+  background: url(../images/ku.png) no-repeat fixed;
+  background-size: cover;
+  background-position: center center;
 }
-
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(../images/Amanda.jpg);
+  }
+  }
+  
+/* For mobile devices */
+@media only screen and (max-width:600px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(../images/Amand.jpg);
+  }
+  }
+  
 #page {
   position: relative;
   overflow-x: hidden;
@@ -64,7 +83,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: rgb(255, 255, 255);
-  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
   font-weight: 400;
   margin: 0 0 20px 0;
   font-weight: normal;
@@ -811,7 +830,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 2px solid rgba(0, 0, 0, 0.8);
 }
 
-input[type="text"] {
+/*input[type="text"] {
   height: 35px;
   border-radius: 10px;
   margin-top: 20px;
@@ -827,7 +846,7 @@ textarea {
   margin: 5px;
   border-radius: 10px;
   text-align: center;
-}
+}*/
 
 
 .form-group {
@@ -1189,14 +1208,17 @@ textarea {
 }
 
 .btn-primary {
-  background: #0a4b01;
+  background:  #01414d;
   color: #fff;
   border: 2px solid #658361;
   border-radius: 25px;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #70926c !important;
-  border-color: #70926c !important;
+  background: #0a4b01 !important;
+  border-color: #ffffff !important;
+  color: rgb(211, 208, 208)
+  
+ 
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1562,5 +1584,18 @@ background-color: rgba(11, 0, 17, 0.966);
 .modal .modal-header .close:focus {
   opacity: 1;
 }
+
+.co{
+  color: rgba(255, 255, 255, 0.822);
+  
+}
+.cardi{
+  background: rgba(44, 167, 255, 0.39);
+  border-radius: 60px;
+  padding: 10px;
+  margin:10px;    
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
