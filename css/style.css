@@ -7381,11 +7381,11 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: rgb(230, 230, 230) !important;
+    background: rgb(151, 150, 150) !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 1px 2px 1px rgba(71, 51, 51, 0.3); }
+    box-shadow: 0px 1px 2px 1px rgba(71, 51, 51, 0.74); }
     .ftco-navbar-light.scrolled .nav-item.active > a {
-      color: #ff5656 !important; }
+      color: #ffffff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
       background: #ff5656;
@@ -8978,13 +8978,15 @@ textarea.form-control {
     .shapeOfpicture{
       width: 60px;
       height: 60px;
-      border: 2px solid rgb(37, 37, 37);
+      border: 6px solid #786f29;
       border-radius: 50%;
+      margin-left: 55px;
+      
     }
     .Akufo{
-      color: rgb(99, 20, 20);
+      color: rgb(255, 255, 255);
      border:1px solid rgba(158, 167, 162, 0) ;
-      font-size: 13px;
+      font-size: 15px;
       text-align:center;
       margin: 20px;
       padding: 10px;
